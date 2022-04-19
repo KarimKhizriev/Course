@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background: #c6f4f4;
+    font-family: 'Roboto', sans-serif;
+    color: #00bfff;
+}
+
+a {
+    color: #8ad4ff;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a:hover {
+    color: #61c9ff;
+    font-size: 2rem;
+}
+
+a:visited {
+    color: #227ba2;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-top: 90px;
+}
+
+@media (max-width: 650px) {
+    .avatar {
+        width: 250px;
+    }
+}
+
+.info {
+    display: flex;
+}
+
+@media (max-width: 650px) {
+    .info {
+      text-align: center;
+      font-size: 1.5rem;
+      display: block;
+    }
+
+    .info .info-text {
+        margin-left: 0;
+    }
+
+    .info .info-text h1 {
+        margin-left: 10px;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+    background: aliceblue;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.info-text h1 {
+    margin-left: 25%;
+}
+
+.info-text p {
+    color: #8ad4ff;
+}
+
+.soc {
+    background: aliceblue;
+    padding: 1px 20px 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card {
+    background: aliceblue;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-top: 7px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.listone {
+    padding: 0 25px;
+}
+
+.listone li {
+    margin-bottom: 10px;
+    color: #8ad4ff;
+}
+
+.box {
+    width: 49%;
+    display: inline-block;
+    box-sizing: border-box;
+    color: #8ad4ff;
+}
+
+.tableone {
+    width: 100%;
+}
+
+.tableone td {
+    padding-bottom: 10px;
+    padding: 10px 50px;
+    color: #8ad4ff;
+}
+  
+.tableone th{
+    padding-right: 15px;
+}
+
+@media (max-width: 650) {
+    .tableone {
+        display: block;
+    }
+
+    .tableone td {
+        padding: 0;
+    }
+
+    .tableone th{
+        padding: 0;
+    }
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #8ad4ff;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: solid 1px #00bfff;
+    color: #8ad4ff;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+  
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+  .row > .form-group {
+    width: 50%;
+}
+  
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+  
+.btn {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #00bfff;  
+    color: #8ad4ff;
+    padding: 20px 0 15px;
+    width: 30%;
+    font-family: inherit;
+    cursor: pointer;
+    margin-left: 245px;
+}
+  
+.btn:hover {
+    opacity: 0.7;
+}
